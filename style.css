@@ -1,0 +1,123 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+ font-family: "Playwrite NZ Basic", cursive;
+}
+
+body {
+  
+    background-color: #000000;
+   background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ffffff, #000000);
+
+    
+}
+.container {
+  display: flex;
+  border-radius: 25px;
+  overflow: hidden; 
+  background: linear-gradient(to right, red 50%, rgb(255, 255, 255) 50%);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  max-width: 1000px;
+  width: 90%;
+  height: 70vh;
+}
+
+
+aside {
+    margin-bottom: 20px; 
+    flex-direction: column;
+    padding: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 0 0 20px;
+
+    
+}
+main{
+   margin-bottom: 20px; 
+    flex-direction: column;
+    padding: 40px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    border-radius: 0 20px 20px 0;
+    gap: 20%;
+    box-shadow: #000000 20px;
+    backdrop-filter: blur(10px);
+} 
+
+
+
+      
+img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+ button {
+   width: 100%;
+height: 50px;
+background-color: rgb(0, 28, 155);
+border: none;
+border-radius: 10px;
+color: #fff;
+font-weight: 500px;
+margin-top: 24px;
+cursor: pointer;
+outline: none;
+font-size: 16px;
+ }
+
+ main .button:hover {
+    background-color: #0000a7;
+ }
+ main .formulario{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+      font-size: bold;
+ }
+ ul{
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #000000;
+      font-size: bold;
+      border: #000000;
+ }
+ main .informacoes2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+      font-size: bold;
+      
+ }
+
+ a:hover {
+opacity: 0.7;
+ }
+
+ p {
+    font-size: 25px;
+    color: seashell;
+      line-height: 35px;
+  margin: 10px 0;
+  font-weight: bold; 
+  }
+ li {
+  list-style-type: none;
+  font-weight: bold;
+  border: #000000 solid 3px;
+  border-radius: 10px;
+  line-height: 35px;
+  margin: 10px 0; 
+} 
+
+
+
